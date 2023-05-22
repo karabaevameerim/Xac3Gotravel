@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutus {
+    position: relative;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white; 
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+.content{
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-left: 8%;
+   display: flex;
+}
+
+.iframe{
+    border: 2px solid rgba(150, 115, 46, 0.206);
+}
+ 
+
+@media screen and (max-width: 550px) {
+    .caption{
+        text-align: center;
+    }
+    .caption h1{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .caption span{
+        text-align: center;
+        
+    }
+    .up img{
+        width: 30%;
+        height: 5px; 
+        
+    }
+    .blocks-text{
+        font-size: small;
+        text-align: center;
+    }
+}
+
+
+
+/* !  ~~~~~~~~~~~~~ */
